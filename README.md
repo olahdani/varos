@@ -9,7 +9,7 @@ Készítők:
  - Maczák Attila
  - Csanda Zoltán
  - Szluka András
- - Dora Vivien Kitti
+ - Dora Vvien Kiffi
  - Ujj Olivér
  - Tordai Márk
  - Szél Gellért
