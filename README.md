@@ -13,3 +13,4 @@ Készítők:
  - Ujj Olivér
  - Tordai Márk
  - Szél Gellért
+ - szél dávid
