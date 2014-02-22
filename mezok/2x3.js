@@ -1,5 +1,5 @@
 mezo({
-  nev: 'Házikó',
-  leiras: 'Ez egy házikó'
+  nev: 'Attila Házikója',
+  leiras: 'Kicsi házikó.'
 })
 
