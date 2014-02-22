@@ -12,3 +12,5 @@ Készítők:
  - Dora Vvien Kitti
  - Ujj Olivér
  - Tordai Márk
+ - Szél Gellért
+ -
