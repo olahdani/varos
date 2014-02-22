@@ -13,4 +13,3 @@ Készítők:
  - Ujj Olivér
  - Tordai Márk
  - Szél Gellért
- -
