@@ -6,6 +6,5 @@ A Város egy nagyszerű kalandjáték, melyet 2014 tavaszán indítottunk Csorv�
 Készítők:
 
 
-Maczák Attila
-
-Csanda Zoltán
+ - Maczák Attila
+ - Csanda Zoltán
