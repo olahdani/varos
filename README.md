@@ -11,7 +11,7 @@ Készítők:
  - Szluka András
  - Dora Vivien Kitti
  - Ujj Olivér
- - Tordai Márk
+ - Tordai Zsarolós Márk
  - Szél Gellért
  - Szél Dávid
  - Szloszjár Bettina
