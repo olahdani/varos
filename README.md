@@ -9,9 +9,11 @@ Készítők:
  - Maczák Attila
  - Csanda Zoltán
  - Szluka András
- - Dora Vvien Kiffli
+
  - Ujj Olivér
- - Tordai Márk
+ - Tordai Márk Anna
  - Szél Gellért
  - Szél Dávid
  - Szloszjár Bettina
+ - Dora Vivien Kitti
+ 
