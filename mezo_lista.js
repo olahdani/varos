@@ -1,4 +1,12 @@
 
 letezoMezo(5, 2)
 letezoMezo(2, 8)
-
+letezoMezo(2, 3)
+letezoMezo(2, 8)
+letezoMezo(3, 1)
+letezoMezo(3, 4)
+letezoMezo(4, 5)
+letezoMezo(5, 2)
+letezoMezo(5, 3)
+letezoMezo(5, 5)
+letezoMezo(6, 2)
