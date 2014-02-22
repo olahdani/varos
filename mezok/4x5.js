@@ -1,5 +1,5 @@
 mezo({
   nev: 'Szluka A.',
-  leiras: '!error!'
+  leiras: '!error!Q'
 })
 
