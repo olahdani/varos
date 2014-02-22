@@ -11,4 +11,4 @@ Készítők:
  - Szluka András
  - Dora Vvien Kitti
  - Ujj Olivér
- - Márk Tordai
+ - Tordai Márk
