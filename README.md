@@ -10,4 +10,4 @@ Készítők:
  - Csanda Zoltán
  - Szluka András
  - Dora Vvien Kitti
- -Ujj Olivér
+ - Ujj Olivér
