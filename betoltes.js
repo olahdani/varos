@@ -13,8 +13,8 @@ function mezo(mezoOpciok) {
   var mezo = document.createElement("div");
   mezo.classList.add('mezo');
   mezo.style.backgroundImage = "url(/kepek/" + (mezoOpciok.kep || alapKep) + ")";
-  mezo.style.left = (vizszintes * 32) + "px"
-  mezo.style.top = (fuggoleges * 32) + "px"
+  mezo.style.left = (mezoOpciok.vizszintes * 32) + "px"
+  mezo.style.top = (mezoOpciok.fuggoleges * 32) + "px"
   document.body.appendChild(mezo);
 }
 
