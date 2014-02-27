@@ -1,6 +1,6 @@
 function letezoMezo(vizszintes, fuggoleges) {
   // A fájlnév egyszerűen a koordinátákból képezzük.
-  fajlnev = "https://rawgithub.com/csorvas/varos/master/mezok/" + vizszintes + 'x' + fuggoleges + '.js';
+  fajlnev = "/mezok/" + vizszintes + 'x' + fuggoleges + '.js';
   var js = document.createElement("script");
   js.type = "text/javascript";
   js.src = fajlnev;
@@ -9,10 +9,10 @@ function letezoMezo(vizszintes, fuggoleges) {
 }
 
 alapKep = 'haz.png';
-function mezo(vizszintes, fuggoleges, mezoOpciok) {
+function mezo(mezoOpciok) {
   var mezo = document.createElement("div");
   mezo.classList.add('mezo');
-  mezo.style.backgroundImage = "url(https://rawgithub.com/csorvas/varos/master/kepek/" + (mezoOpciok.kep || alapKep) + ")";
+  mezo.style.backgroundImage = "url(/kepek/" + (mezoOpciok.kep || alapKep) + ")";
   mezo.style.left = (vizszintes * 32) + "px"
   mezo.style.top = (fuggoleges * 32) + "px"
   document.body.appendChild(mezo);
