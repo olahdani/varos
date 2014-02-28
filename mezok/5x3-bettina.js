@@ -1,8 +1,8 @@
 mezo({
   vizszintes: 5,
   fuggoleges: 2,
-  nev: 'Bettina2003 háza',
-  leiras: 'Ez egy ház'
+  nev: 'Bettina2003 háza',;
+  leiras: 'Ez egy ház';
   ralepeskor: function () {
     
   nev = parancs("Add meg a neved!");
