@@ -11,7 +11,7 @@ mezo({
   
   kiir (koszones);
   
-  szam = kerdez ("Mennyi 152+948?");
+  szam = kerdez ("Mennyi 152+848?");
   
   if (szam ==1000) kiir ("Helyes!")
   
