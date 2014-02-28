@@ -1,8 +1,8 @@
 mezo({
-  vizszintes: 2,
+  vizszintes: 5,
   fuggoleges: 8,
   nev: 'Gellért háza',
-  leiras: 'Ez egy házikó'
+  leiras: 'Ez egy házikó',
 ralepeskor: function() {
 
   
@@ -21,4 +21,4 @@ ralepeskor: function() {
    
     else kiir("Nem helyes!");
 }
-})
+});
