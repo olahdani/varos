@@ -9,7 +9,7 @@ udvozlet = "Oké" +nev ", Maradj csendes határaimon belül!";
  kiir(udvozlet);
 z = kerdez ("Mi a szándékod?");
 r = "Rendben...";
-kiír(r);
+ kiír(r);
 }
 })
 
