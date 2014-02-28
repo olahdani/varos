@@ -6,4 +6,5 @@ mezo({
   ralepeskor: function() {
     kiir("Ráléptél Csaba házára!");
   }
+  
 });
