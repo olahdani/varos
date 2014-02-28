@@ -9,7 +9,7 @@ mezo({
   udvozlet = "Szia " + nev;
   kiir(udvozlet);
    szam = kerdez("Hány óra egy nap?");
-   if (szam == 60) kiir("Helyes !");
+   if (szam == 24) kiir("Helyes !");
    else kiir("Nem helyes!");
    
    }
