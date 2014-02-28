@@ -1,4 +1,3 @@
-
 mezolista = [
   '2x3-attila',
   '2x8-gellert',
@@ -8,7 +7,7 @@ mezolista = [
   '3x6',
   '4x5-andras',
   '5x1-csaba',
-  '5x2',
+  '5x2-pali',
   '5x3-bettina',
   '5x5-mark',
   '6x2-oliver',
