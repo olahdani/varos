@@ -6,7 +6,7 @@ mezo({
 ralepeskor: function() {
  nev = kerdez("Szluka András vagyok!!! Milyen fajhoz tartozol?");
 udvozlet = "Oké " + nev;
- kiir(udvozlet) ", maradj csendes határaimon belül!";
+ kiir(udvozlet);
 }
 })
 
