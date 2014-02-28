@@ -1,10 +1,11 @@
 mezo({
-  vizszintes: 5,
-  fuggoleges: 5,
-  nev: 'Gte Ash',
-  leiras: 'Ez a ház Ash-jé! Ne lépj be! Vááááááá! Fuck You!'
-  udvozlet = "Nem csípem a fajod: " + nev;
- kiir(udvozlet);
-}
-})
-
+  vizszintes: 2,
+  fuggoleges: 8,
+  nev: ' Márk Házikója',
+  leiras: 'Kicsi házikó.',
+  ralepeskor: function() {
+    kiir("Ez a ház Ash-jé! Ne lépj be!");
+  }
+  
+});
+  
