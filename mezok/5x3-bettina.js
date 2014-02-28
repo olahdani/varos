@@ -3,7 +3,7 @@ mezo({
   fuggoleges: 2,
   nev: 'Bettina2003 háza',
   leiras: 'Ez egy ház'
-  ralepeskor : function () {
+  ralepeskor: function () {
     
   nev = parancs("Add meg a neved!");
   
