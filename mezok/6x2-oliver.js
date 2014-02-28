@@ -4,5 +4,5 @@ mezo({
   nev: 'Oli   Házikója',
   leiras: 'Kicsi házikó'
 
-  nev = ("Mi a nemed?" )
+  nev = kerdes ("Mi a nemed?" )
 })
