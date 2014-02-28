@@ -1,7 +1,7 @@
 mezo({
   vizszintes: 4,
   fuggoleges: 5,
-  nev: 'Szluka A.',
+  nev: 'andras',
   leiras: 'Cottage',
 ralepeskor: function() {
  nev = kerdez("Szluka András vagyok!!! Milyen fajhoz tartozol?");
