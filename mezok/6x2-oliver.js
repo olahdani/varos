@@ -11,8 +11,7 @@ mezo({
    szam = kerdez("Hány óra egy nap?");
    if (szam == 60) kiir("Helyes !");
    else kiir("Nem helyes!");
-  
+   
    }
-  
-});
+   });
   
