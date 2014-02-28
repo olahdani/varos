@@ -5,6 +5,10 @@ mezo({
   leiras: 'Kicsi házikó'
   ralepeskor: function() {
   nev = kerdes ("Mi a neved?" );
-  
-
+  udvozlet = "Szia " + nev;
+  kiir(udvozlet)
+  szam = kerdez("Hány óra egy nap?");
+  if (szam == 60)kiir(Helyes !");
+  else kiir("Nem helyes !");
+  {  
 })
