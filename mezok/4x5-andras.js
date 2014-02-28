@@ -5,8 +5,11 @@ mezo({
   leiras: 'Cottage',
 ralepeskor: function() {
  nev = kerdez("Szluka András vagyok!!! Milyen fajhoz tartozol?");
-udvozlet = "Rendben" +nev ", Maradj csendes határaimon belül!";
+udvozlet = "Oké" +nev ", Maradj csendes határaimon belül!";
  kiir(udvozlet);
+z = kerdez ("Mi a szándékod?")
+r = "Rendben..."
+kiír(r)
 }
 })
 
