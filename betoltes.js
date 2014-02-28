@@ -4,6 +4,12 @@ Array.prototype.feldolgozas = function(iterator) {
   }
 }
 
+Array.prototype.keres = function(iterator) {
+  for (var i = 0, length = this.length; i < length; i++) {
+    if (iterator.call(null, this[i], i, this) === true) return this[i];
+  }
+}
+
 mezolista.feldolgozas(function(nev) {
   fajlnev = "/mezok/" + nev + '.js';
   var js = document.createElement("script");
@@ -16,24 +22,24 @@ szereplo = szereploBetolt({vizszintes: 1, fuggoleges: 1});
 
 alapKep = 'haz.png';
 mezok = [];
-function mezo(opciok) {
-  var mezo = document.createElement("div");
-  mezo.classList.add('mezo');
-  mezo.style.backgroundImage = "url(/kepek/" + (opciok.kep || alapKep) + ")";
-  mezo.style.left = (opciok.vizszintes * 64) + "px"
-  mezo.style.top = (opciok.fuggoleges * 64) + "px"
-  document.body.appendChild(mezo);
-  mezok.push({mezo: mezo, vizszintes: vizszintes, fuggoleges: fuggoleges})
+function mezo(mezo) {
+  var mezoDiv = document.createElement("div");
+  mezoDiv.classList.add('mezo');
+  mezoDiv.style.backgroundImage = "url(/kepek/" + (mezo.kep || alapKep) + ")";
+  mezoDiv.style.left = (mezo.vizszintes * 64) + "px"
+  mezoDiv.style.top = (mezo.fuggoleges * 64) + "px"
+  document.body.appendChild(mezoDiv);
+  mezo.div = mezoDiv;
+
+  mezok.push(mezo)
 }
 
-function szereploBetolt(opciok) {
-  var sz = {};
-
+function szereploBetolt(sz) {
   var mezo = document.createElement("div");
   mezo.classList.add('szereplo');
   mezo.style.backgroundImage = "url(/kepek/szereplo.png)";
-  mezo.style.left = (opciok.vizszintes * 64) + "px"
-  mezo.style.top = (opciok.fuggoleges * 64) + "px"
+  mezo.style.left = (sz.vizszintes * 64) + "px"
+  mezo.style.top = (sz.fuggoleges * 64) + "px"
   document.body.appendChild(mezo);
 
   sz.mezo = mezo;
@@ -47,32 +53,52 @@ document.onkeydown = function (e) {
     fel(szereplo);
     lep(szereplo);
   } else if (e.keyCode == '39') {
-    jobbra(szereplo);
-    lep(szereplo);
+    jobbra();
+    lep();
   } else if (e.keyCode == '40') {
-    le(szereplo);
-    lep(szereplo);
+    le();
+    lep();
   } else if (e.keyCode == '37') {
-    balra(szereplo);
-    lep(szereplo);
+    balra();
+    lep();
   }
 }
 
-function balra(szereplo) {
+function balra() {
+  szereplo.vizszintes -= 1;
   szereplo.mezo.style.left = szereplo.mezo.offsetLeft - 64 + "px";
 }
-function jobbra(szereplo) {
+function jobbra() {
+  szereplo.vizszintes += 1;
   szereplo.mezo.style.left = szereplo.mezo.offsetLeft + 64 + "px";
 }
-function le(szereplo) {
+function le() {
+  szereplo.fuggoleges += 1;
   szereplo.mezo.style.top = szereplo.mezo.offsetTop + 64 + "px";
 }
-function fel(szereplo) {
+function fel() {
+  szereplo.fuggoleges -= 1;
   szereplo.mezo.style.top = szereplo.mezo.offsetTop - 64 + "px";
 }
 
 
-function lep(szereplo) {
-  // Itt folytatjuk!
+function lep() {
+  var mezo = mezok.keres(function(m) {
+    if (m.vizszintes == szereplo.vizszintes && m.fuggoleges == szereplo.fuggoleges) {
+      return true
+    }
+  })
+  if (mezo && typeof mezo.ralepeskor == 'function') {
+    mezo.ralepeskor();
+  }
+}
+
+
+function kerdez(kerdes) {
+  return window.prompt(kerdes)
+}
+
+function kiir(kiiras) {
+  alert(kiiras)
 }
 
