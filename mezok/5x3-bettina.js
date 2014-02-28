@@ -1,5 +1,5 @@
 mezo({
-  vizszintes: 8,
+  vizszintes: 4,
   fuggoleges: 4,
   nev: ' Betti Házikója',
   leiras: 'Kicsi házikó.',
