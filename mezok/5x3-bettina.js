@@ -1,5 +1,4 @@
 mezo({
-  mezo({
   vizszintes: 8,
   fuggoleges: 4,
   nev: ' Betti Házikója',
