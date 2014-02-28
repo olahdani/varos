@@ -1,6 +1,6 @@
 mezo({
   vizszintes: 6,
   fuggoleges: 2,
-  nev: 'win88   Házikója',
+  nev: 'Oli   Házikója',
   leiras: 'Kicsi házikó'
 })
