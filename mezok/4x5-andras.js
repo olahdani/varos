@@ -7,5 +7,6 @@ ralepeskor: function() {
  nev = kerdez("Milyen fajhoz tartozol?");
 udvozlet = "Nem csípem a fajod: " + nev;
  kiir(udvozlet);
+}
 })
 
