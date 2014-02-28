@@ -5,4 +5,4 @@ mezo({
   leiras: 'Kicsi házikó.',
   ralepeskor: function() {
   }
-);
+});
