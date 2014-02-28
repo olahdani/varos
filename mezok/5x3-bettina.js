@@ -5,6 +5,11 @@ mezo({
   leiras: 'Kicsi házikó.',
   ralepeskor: function() {
     kiir("Bettina házában vagy!");
+    
+    nev = kerdez ("Mi a keresztneved?");
+    udvozlet = "szia"+nev;
+    kiir (udvozlet);
+    
   }
   
 });
