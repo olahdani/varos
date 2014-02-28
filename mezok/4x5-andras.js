@@ -8,5 +8,5 @@ ralepeskor: function() {
 udvozlet = "Oké" + nev ", Maradj csendes határaimon belül!";
  kiir(udvozlet);
 }
-})
+});
 
