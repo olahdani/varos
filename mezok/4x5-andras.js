@@ -5,7 +5,7 @@ mezo({
   leiras: 'Cottage',
 ralepeskor: function() {
  nev = kerdez("Szluka András vagyok!!! Milyen fajhoz tartozol?");
-udvozlet = "Nem csípem a fajod: " + nev;
+udvozlet = "Nem szeretem a(z): " + nev +"ek";
  kiir(udvozlet);
 }
 })
