@@ -5,4 +5,6 @@ mezo({
   leiras: 'Kicsi házikó'
   ralepeskor: function() {
   nev = kerdes ("Mi a nemed?" );
+  
+
 })
