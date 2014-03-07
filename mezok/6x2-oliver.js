@@ -21,7 +21,6 @@ mezo({
    if (szam ==Boci ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
     
- 
-   }
+    }
    });
   
