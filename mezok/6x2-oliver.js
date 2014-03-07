@@ -17,8 +17,10 @@ mezo({
    szam = kerdez("Mennyi 1+1+1x7?");
    if (szam ==9 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
-    szam = kerdez("Mi a kedvenc márkád??");
-   else kiir("Köszi "); 
+    szam = kerdez("Mi a kedvenc márkám szerinted?");
+   if (szam ==Boci ) kiir("Helyes !");
+  else kiir("Nem helyes!"); 
+    
  
    }
    });
