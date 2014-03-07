@@ -12,10 +12,11 @@ ralepeskor: function() {
    
     udvozlet = "Szia " + nev;
 
+
   
     kiir(udvozlet);
 
-    szam = kerdez("Hány éves vagy?");
+    szam = kerdez("Ki az édesapád?");
 
   
     if (szam >= 80) kiir("Nem lehetsz ilyen öreg!");
