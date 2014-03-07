@@ -1,6 +1,6 @@
 mezo({
-  vizszintes: 2,
-  fuggoleges: 8,
+  vizszintes: 3,
+  fuggoleges: 1,
   nev: 'Dávid háza',
   leiras: 'Ez egy házikó',
 
