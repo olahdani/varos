@@ -16,11 +16,10 @@ ralepeskor: function() {
   
     kiir(udvozlet);
 
-    szam = kerdez("Ki az édesapád?");
+    szam = kerdez("Hányszór ismételje a nevét?");
 
-  
-    if (szam >= 80) kiir("Mi a kedvenc szined?");
-   
-    else kiir("Szeretsz Minecaftólni? ");
+    for (szamlalo=o;szammlalo <szam;szamlalo++){
+      kiir(nev)
+    }
 }
 });
