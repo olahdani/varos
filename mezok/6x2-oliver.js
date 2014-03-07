@@ -15,8 +15,6 @@ mezo({
    if (szam ==9 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
   
-  
-  
    }
    });
   
