@@ -15,7 +15,7 @@ mezo({
    if (szam ==64 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
    szam = kerdez("Mennyi 1-1+1x7+1?");
-   if (szam ==10 ) kiir("Helyes !");
+   if (szam ==8 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
     szam = kerdez("Mennyi 200$ ?");
    if (szam ==40.000 ) kiir("Helyes !");
