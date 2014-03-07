@@ -20,7 +20,7 @@ ralepeskor: function() {
 
   
     if (cim != "") kiir("Köszi, hogy beírtad!");
-       adatok = "Adataid: "+ nev+'   '+ cim;
+       adatok = "Adataid: "+ nev;
        
        kiir(adatok);
    
