@@ -22,6 +22,6 @@ ralepeskor: function() {
     if (szam >= 80) kiir("Mi a kedvenc szined?)
     !");
    
-    else kiir("Köszi!");
+    else kiir("Szeretsz Minecaftólni? ");
 }
 });
