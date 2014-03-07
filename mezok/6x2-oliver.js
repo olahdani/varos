@@ -14,6 +14,9 @@ mezo({
   szam = kerdez("Mennyi 1+1+1x7?");
    if (szam ==9 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
+    szam = kerdez("Mi a kedvenc számod??");
+   if (szam == ) kiir("OK !");
+  else kiir("Nem helyes!"); 
   
   
    }
