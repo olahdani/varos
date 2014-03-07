@@ -3,7 +3,7 @@ mezo({
   fuggoleges: 5,
   nev: 'andras',
   leiras: 'Cottage',
-kep: 'haz2.png',
+kep: 'figura.png''terep.jpg',
 ralepeskor: function() {
  kiir ("András házában vagy!");
  nev = kerdez("Szluka András vagyok! Mi a neved?");
