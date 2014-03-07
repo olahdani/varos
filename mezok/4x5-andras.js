@@ -8,7 +8,7 @@ ralepeskor: function() {
  nev = kerdez("Szluka András vagyok!Mi a neved?");
 udvozlet = "Szervusz " + nev;
  kiir(udvozlet);
-kerdez("hány € kb.900FT? (!egy számot kérek!)");
+szam = kerdez("hány € kb.900FT? (!egy számot kérek!)");
 if (szam = 3) kiir("Tájékozott vagy, ezt szeretem! :D");
 else kiir("Ez helytelen megoldás! ]:(");
 }
