@@ -10,8 +10,7 @@ mezo({
   kiir(udvozlet);
    szam = kerdez("Hányszor ismételjem?");
  
-
-  for (szamlalo=0; szamlalo < szam; szamlalo++){
+   for (szamlalo=0; szamlalo < szam; szamlalo++){
    kiir (minden nap programozok;)
   }  
   
