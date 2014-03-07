@@ -18,7 +18,7 @@ mezo({
    if (szam ==10 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
     szam = kerdez("Mennyi 200$ ?");
-   if (szam ==40000 ) kiir("Helyes !");
+   if (szam ==40.000 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
        szam = kerdez("Mi a kedvenc számom ?");
    if (szam ==88 ) kiir("Helyes !");
