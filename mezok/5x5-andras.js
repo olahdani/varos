@@ -1,5 +1,5 @@
 mezo({
-  vizszintes: 8,
+  vizszintes: 4,
   fuggoleges: 5,
   nev: 'andras',
   leiras: 'Cottage',
