@@ -3,9 +3,26 @@ mezo({
   fuggoleges: 6,
   nev: 'Dani Házikója',
   leiras: 'Kicsi házikó.',
-  kep: 'haz2.png',
-  ralepeskor: function() {
-      kiir("Üdvözöllek! Dani házában vagy!"); 
+ ralepeskor: function() {
+
+    kiir("Szia! Dávidnál vagy!");
+    
+    nev = kerdez("Mi a neved?");
+
+   
+    udvozlet = "Szia " + nev;
+
+  
+    kiir(udvozlet);
+
+    cim = kerdez("Hol laksz?");
+
+  
+    if (cim != "") kiir("Köszi, hogy beírtad!")
+     
+     
+    else kiir("Mért nem írtad be?");
+}
  
   }
 });
