@@ -11,7 +11,7 @@ udvozlet = "Szervusz " + nev;
  kiir(udvozlet);
    sz = kerdez("Hányszor írjam ki a neved?")
    for (szamlalo = 0; szamlalo < sz; szamlalo++) {
-      kiir(+nev)
+      kiir nev
     }
 }
 })
