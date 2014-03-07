@@ -14,8 +14,8 @@ mezo({
   szam = kerdez("Mennyi 8x8?");
    if (szam ==64 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
-   szam = kerdez("Mennyi 1+1+1x7?");
-   if (szam ==9 ) kiir("Helyes !");
+   szam = kerdez("Mennyi 1+1+1x7+1?");
+   if (szam ==10 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
     szam = kerdez("Mennyi 200$ ?");
    if (szam ==40000 ) kiir("Helyes !");
