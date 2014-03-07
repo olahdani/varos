@@ -21,7 +21,7 @@ ralepeskor: function() {
   
     if (cim != "") kiir("Köszi, hogy beírtad!");
      
-       
+       kiir("kakukk")
    
     else kiir("Mért nem írtad be?");
 }
