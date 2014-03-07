@@ -15,11 +15,11 @@ ralepeskor: function() {
   
     kiir(udvozlet);
 
-    szam = kerdez("Hány perc egy óra?");
+    szam = kerdez("Hány éves vagy?");
 
   
-    if (szam == 60) kiir("Helyes !");
+    if (szam >= 80) kiir("Nem lehetsz ilyen öreg!");
    
-    else kiir("Nem helyes!");
+    else kiir("Köszi!");
 }
 });
