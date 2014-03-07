@@ -3,6 +3,7 @@ mezo({
   fuggoleges: 3,
   nev: 'Attila Házikója',
   leiras: 'Kicsi házikó.',
+  kep: 'haz2.png',
   ralepeskor: function() {
 
     // kerdez funkció feltesz egy kérdést a felhasználónak
