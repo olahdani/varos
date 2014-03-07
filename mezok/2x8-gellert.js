@@ -19,7 +19,8 @@ ralepeskor: function() {
     szam = kerdez("Ki az édesapád?");
 
   
-    if (szam >= 80) kiir("Nem lehetsz ilyen öreg!");
+    if (szam >= 80) kiir("Mi a kedvenc szined?)
+    !");
    
     else kiir("Köszi!");
 }
