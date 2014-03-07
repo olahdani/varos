@@ -9,7 +9,7 @@ ralepeskor: function() {
  nev = kerdez("Szluka András vagyok! Mi a neved?");
 udvozlet = "Szervusz " + nev;
  kiir(udvozlet);
-   sz = kerdez("Hányszor írjam ki a neved?")
+   sz = kerdez("Hányszor írjam ki a neved?");
    for (szamlalo = 0; szamlalo < sz; szamlalo++) {
       kiir (nev);
     }
