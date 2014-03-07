@@ -19,7 +19,7 @@ ralepeskor: function() {
     cim = kerdez("Hol laksz?");
 
   
-    if (cim != "") kiir("Köszi, hogy beírtad!");
+    if (cim != "") kiir("Köszi, hogy beírtad!")
      
        kiir("kakukk");
    
