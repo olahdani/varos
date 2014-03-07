@@ -17,9 +17,8 @@ mezo({
    szam = kerdez("Mennyi 1+1+1x7?");
    if (szam ==9 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
-    szam = kerdez("Hányan laknak Csorváson?");
-   if (szam =6000körül ) kiir("Helyes !");
-  else kiir("Nem helyes!"); 
+    szam = kerdez("Mi a kedvenc márkád??");
+   else kiir("Köszi "); 
  
    }
    });
