@@ -1,10 +1,9 @@
 mezo({
-  vizszintes: 4,
+  vizszintes: 8,
   fuggoleges: 5,
   nev: 'andras',
   leiras: 'Cottage',
 kep: 'haz2.png',
-kep: 'haz.png',
 ralepeskor: function() {
  kiir ("András házában vagy!");
  nev = kerdez("Szluka András vagyok! Mi a neved?");
