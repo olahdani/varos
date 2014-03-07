@@ -4,7 +4,6 @@ mezo({
   nev: 'andras',
   leiras: 'Cottage',
 for{
-kep: 'figura.png',
 kep: 'terep.jpg',
 }
 ralepeskor: function() {
