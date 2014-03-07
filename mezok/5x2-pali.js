@@ -7,7 +7,7 @@ mezo({
   kiir('Pali házára léptél és fájt neki');
   nev = kerdez("Mi a neved?");
   udvozlet = "Szia " + nev;
-  szamlalo = kerdez("Hányszor írja ki?")
+  szamlalo = kerdez("Hányszor írja ki?");
   for (szamlalo = 0; szamlalo < almak; szamlalo++) {
       kiir("Minden nap programozni fogok")
     }
