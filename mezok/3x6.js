@@ -11,6 +11,6 @@ mezo({
   }
   {
   email =(" Van e-mail címed?");
-  udv2 = "Az jó hogy" + email
+  udv2 = "Az jó hogy" + email;
   }
 });
