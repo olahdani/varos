@@ -22,7 +22,6 @@ ralepeskor: function() {
     if (cim != "") kiir("Köszi, hogy beírtad!");
        adatok = "Adataid: ";
        
-       kiir(adatok);
    
     else kiir("Mért nem írtad be?");
 }
