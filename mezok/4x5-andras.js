@@ -10,7 +10,7 @@ udvozlet = "Szervusz " + nev;
  kiir(udvozlet);
 kerdez("hány € kb.900FT? (!egy számot kérek!)");
 if (szam = 3) kiir("Tájékozott vagy, ezt szeretem! :D");
-else kiir("Ez helytelen megoldás! ]:(")
+else kiir("Ez helytelen megoldás! ]:(");
 }
 })
 
