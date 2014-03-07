@@ -5,17 +5,20 @@ mezo({
   leiras: 'Kicsi házikó.',
   kep: 'haz2.png',
   ralepeskor: function() {
-
-    szam = kerdez("Hány éves vagy?");
-
-    // if jelentése: ha
-    if (szam > 80) {
-      kiir("Nem lehetsz ilyen öreg!");
-      kiir("Fiatalabb vagy!");
-    }
-    // else jelentése: különben
-    else {
-      kiir("Nem helyes!");
+    // Ciklus, haromszor hajtodik vegre
+    for (szamlalo = 0; szamlalo < 3; szamlalo++) {
+      
+      szam = kerdez("Hány éves vagy?");
+  
+      // if jelentése: ha
+      if (szam > 80) {
+        kiir("Nem lehetsz ilyen öreg!");
+        kiir("Fiatalabb vagy!");
+      }
+      // else jelentése: különben
+      else {
+        kiir("Fiatal vagy!");
+      }
     }
   }
 })
