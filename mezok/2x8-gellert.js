@@ -19,8 +19,7 @@ ralepeskor: function() {
     szam = kerdez("Ki az édesapád?");
 
   
-    if (szam >= 80) kiir("Mi a kedvenc szined?)
-    !");
+    if (szam >= 80) kiir("Mi a kedvenc szined?");
    
     else kiir("Szeretsz Minecaftólni? ");
 }
