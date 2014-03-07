@@ -15,7 +15,7 @@ mezo({
    if (szam ==9 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
     szam = kerdez("Mi a kedvenc számod??");
-   if  kiir("OK !");
+   if (szam == ) kiir("OK !");
   else kiir("Nem helyes!"); 
   
   
