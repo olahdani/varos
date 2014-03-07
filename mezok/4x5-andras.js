@@ -9,7 +9,7 @@ ralepeskor: function() {
 udvozlet = "Szervusz " + nev;
  kiir(udvozlet);
 szam = kerdez("Hány Euro kb.900FT? (!egy számot kérek!)");
-if (szam = 3) kiir("Tájékozott vagy, ezt szeretem! :D");
+if (szam == 3) kiir("Tájékozott vagy, ezt szeretem! :D");
 else kiir("Ez helytelen megoldás! ]:(");
 }
 })
