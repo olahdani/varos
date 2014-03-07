@@ -7,10 +7,8 @@ mezo({
   kiir('Pali házára léptél és fájt neki');
   nev = kerdez("Mi a neved?");
   udvozlet = "Szia " + nev;
-  kiir(udvozlet);
-  szam = kerdez("Hány éves vagy");
-  if (szam > 80) kiir("Nem lehetsz ilyen idős!");
-  else kiir("nem helyes!");
-  }
-  
+  szamlalo = kerdez("Hányszor írja ki?")
+  for (szamlalo = 0; szamlalo < almak; szamlalo++) {
+      kiir("Minden nap programozni fogok")
+    }
 })
