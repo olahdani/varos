@@ -11,7 +11,10 @@ mezo({
    szam = kerdez("Hány óra egy nap?");
    if (szam == 24) kiir("Helyes !");
    else kiir("Nem helyes!");
-  szam = kerdez("Mennyi 1+1+1x7?");
+  szam = kerdez("Mennyi 8x8?");
+   if (szam ==64 ) kiir("Helyes !");
+  else kiir("Nem helyes!"); 
+   szam = kerdez("Mennyi 1+1+1x7?");
    if (szam ==9 ) kiir("Helyes !");
   else kiir("Nem helyes!"); 
   
