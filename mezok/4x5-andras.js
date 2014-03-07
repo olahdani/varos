@@ -14,5 +14,6 @@ udvozlet = "Szervusz " + nev;
       kiir (nev)
     }
 }
+kep: 'haz2.png',
 })
 
