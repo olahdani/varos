@@ -6,22 +6,17 @@ mezo({
   kep: 'haz2.png',
   ralepeskor: function() {
 
-    // kerdez funkció feltesz egy kérdést a felhasználónak
-    // A választ egy változóban mentjük el.
-    nev = kerdez("Mi a neved?");
-
-    // Ha hozzá szeretnénk tenni a változóhoz, egyszerűen hozzáadhatjuk.
-    udvozlet = "Szia " + nev;
-
-    // A kiir metódussal tudunk szöveget kiírni.
-    kiir(udvozlet);
-
     szam = kerdez("Hány éves vagy?");
 
     // if jelentése: ha
-    if (szam > 80) kiir("Nem lehetsz ilyen öreg!");
+    if (szam > 80) {
+      kiir("Nem lehetsz ilyen öreg!");
+      kiir("Fiatalabb vagy!");
+    }
     // else jelentése: különben
-    else kiir("Nem helyes!");
+    else {
+      kiir("Nem helyes!");
+    }
   }
 })
 
