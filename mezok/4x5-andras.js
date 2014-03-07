@@ -11,6 +11,9 @@ udvozlet = "Szervusz " + nev;
 szam = kerdez("Hány Euro kb.900FT? (!egy számot kérek!)");
 if (szam == 3) kiir("Tájékozott vagy, ezt szeretem! :D");
 else kiir("Ez helytelen megoldás! ]:(");
+szam = kerdez("Hány Euro kb.150 000FT? (!egy számot kérek!)");
+if (szam == 500) kiir("Tájékozott vagy, ezt szeretem! :D");
+else kiir("Ez helytelen megoldás! ]:(");
 }
 })
 
