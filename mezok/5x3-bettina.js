@@ -1,6 +1,6 @@
 mezo({
-  vizszintes: 4,
-  fuggoleges: 4,
+  vizszintes: 5,
+  fuggoleges: 3,
   nev: ' Betti Házikója',
   leiras: 'Kicsi házikó.',
   ralepeskor: function() {
