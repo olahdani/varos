@@ -4,5 +4,9 @@ mezo({
   nev: ' Házikója',
   leiras: 'Kicsi házikó.',
   ralepeskor: function() {
+ kiir("Üdvözöllek! Dani házában vagy!") 
+  
+  
+  
   }
 });
