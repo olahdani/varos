@@ -16,11 +16,11 @@ ralepeskor: function() {
   
     kiir(udvozlet);
 
-    szam = kerdez("Hány éves vagy?");
+    cim = kerdez("Hol laksz?");
 
   
-    if (szam >= 80) kiir("Nem lehetsz ilyen öreg!");
+    if (cim != "") kiir("Köszi, hogy beírtad!");
    
-    else kiir("Köszi!");
+    else kiir("Mért nem írtad be?");
 }
 });
