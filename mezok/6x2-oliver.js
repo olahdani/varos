@@ -8,11 +8,12 @@ mezo({
   nev = kerdez("Mi a neved?");
   udvozlet = "Szia " + nev;
   kiir(udvozlet);
-   hany = kerdez("Hányszor irjam le?");
- 
-   for (szamlalo=0; szamlalo < szam; szamlalo++){
-  kiir (minden nap programozni fogok!;)
-  }  
+   ralepeskor: function() {
+    kiir ("Oli házában vagy.");
+    hany = kerdez("Hanyszor irjam le?");
+        for (szamlalo = 0; szamlalo < hany; szamlalo++) {
+        kiir("Minden nap programozni fogok!")
+      
   
 //   if (szam ==8 ) kiir("Helyes !");
   //else kiir("Nem helyes!"); 
