@@ -6,7 +6,7 @@ mezo({
 ralepeskor: function() {
 
   
-    nev = kerdez("Mi a neved?");
+    nev = kerdez("Szia! Gellért házában vagy. Mi a neved?");
 
    
     udvozlet = "Szia " + nev;
