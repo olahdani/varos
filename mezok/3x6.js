@@ -8,8 +8,7 @@ mezo({
   nev = kerdez("Hogy hívnak?");
   udvozlet = "szia " + nev;
   kiir(udvozlet);
-  }
-  {
+  
   email =(" Van e-mail címed?");
   udv2 = "Az jó hogy" + email;
   }
