@@ -13,6 +13,5 @@ mezo({
     kerdez2 = kerdez ("Hanyadik osztályos vagy?");
     kerdez3 = kerdez ("Mi a kedvenc színed?");
     kerdez4 = kerdez ("Szeretsz iskolába járni?");
-  
-});
+    });
   
