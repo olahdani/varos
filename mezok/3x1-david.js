@@ -16,12 +16,13 @@ ralepeskor: function() {
   
     kiir(udvozlet);
 
-    cim = kerdez("Hol laksz?");
-
+    szam = kerdez("Hányszor ismétejem a neved?");
+    
+    for (szamlalo=0; szamlalo <szam; szamlalo++) {
+      
+      kiir(nev)
+    }
   
-    if (cim != "") kiir("Köszi, hogy beírtad!")
-     
-     
-    else kiir("Mért nem írtad be?");
+
 }
 });
