@@ -13,6 +13,7 @@ udvozlet = "Szervusz " + nev;
    for (szamlalo = 0; szamlalo < sz; szamlalo++) {
       kiir (nev)
     }
+kep: 'haz.png',
 }
 })
 
