@@ -5,8 +5,9 @@ mezo({
   leiras: 'Ez egy házikó',
 ralepeskor: function() {
 
-  
-    nev = kerdez("Szia! Gellért házában vagy. Mi a neved?");
+    kiir("Szia! Gellért házában vagy.);
+    
+    nev = kerdez("Mi a neved?");
 
    
     udvozlet = "Szia " + nev;
