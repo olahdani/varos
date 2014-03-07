@@ -3,7 +3,6 @@ mezo({
   fuggoleges: 2,
   nev: ' Házikója',
   leiras: 'Kicsi házikó.',
-  kep:  'házam. png",
   ralepeskor: function() {
     kiir("Oli házában vagy!");
   nev = kerdez("Mi a neved?");
