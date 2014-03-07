@@ -1,6 +1,6 @@
 mezo({
   vizszintes: 4,
-  fuggoleges: 5,
+  fuggoleges: 10,
   nev: 'andras',
   leiras: 'Cottage',
 ralepeskor: function() {
