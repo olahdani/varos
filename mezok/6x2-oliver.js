@@ -8,21 +8,16 @@ mezo({
   nev = kerdez("Mi a neved?");
   udvozlet = "Szia " + nev;
   kiir(udvozlet);
-   szam = kerdez("Hány óra egy nap?");
-   if (szam == 24) kiir("Helyes !");
-   else kiir("Nem helyes!");
-  szam = kerdez("Mennyi 8x8?");
-   if (szam ==64 ) kiir("Helyes !");
-  else kiir("Nem helyes!"); 
-   szam = kerdez("Mennyi 1-1+1x7+1?");
-   if (szam ==8 ) kiir("Helyes !");
-  else kiir("Nem helyes!"); 
+   szam = kerdez("Hányszor ismételjem?");
+
+
+  for (szamlalo=0; szamlalo < szam; szamlalo++){
+   kiir (minden nap programozok;)
+  }  
+  
+//   if (szam ==8 ) kiir("Helyes !");
+  //else kiir("Nem helyes!"); 
     szam = kerdez("Mennyi 200$ ?");
-   if (szam ==40.000 ) kiir("Helyes !");
-  else kiir("Nem helyes!"); 
-       szam = kerdez("Mi a kedvenc számom ?");
-   if (szam ==88 ) kiir("Helyes !");
-  else kiir("Nem helyes!"); 
   
     }
    });
