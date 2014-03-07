@@ -11,7 +11,7 @@ mezo({
    szam = kerdez("Hányszor ismételjem?");
  
    for (szamlalo=0; szamlalo < szam; szamlalo++){
-   kiir (minden nap programozok;)
+  kiir (minden nap programozni fogok!;)
   }  
   
 //   if (szam ==8 ) kiir("Helyes !");
