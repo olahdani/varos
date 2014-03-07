@@ -8,5 +8,5 @@ mezo({
       nev = kerdez("Hogy hívnak?");
       udvozlet = "szia " + nev;
       kiir(udvozlet);
-  
+  }
 });
