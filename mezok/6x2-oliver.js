@@ -5,11 +5,6 @@ mezo({
   leiras: 'Kicsi házikó.',
   kep: 'haz-oliver.png',
   ralepeskor: function() {
-    kiir("Oli házában vagy!");
-  nev = kerdez("Mi a neved?");
-  udvozlet = "Szia " + nev;
-  kiir(udvozlet);
-   ralepeskor: function() {
     kiir ("Oli házában vagy.");
     hany = kerdez("Hanyszor irjam le?");
         for (szamlalo = 0; szamlalo < hany; szamlalo++) {
@@ -21,5 +16,6 @@ mezo({
     szam = kerdez("Mennyi 200$ ?");
   
     }
-   });
+  }
+});
   
