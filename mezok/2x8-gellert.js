@@ -3,6 +3,7 @@ mezo({
   fuggoleges: 8,
   nev: 'Gellért háza',
   leiras: 'Ez egy házikó',
+  kep: 'haz-szgellert.png',
 ralepeskor: function() {
 
     kiir("Szia! Gellért házában vagy.");
