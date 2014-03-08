@@ -7,14 +7,11 @@ mezo({
   ralepeskor: function() {
     kiir ("Oli házában vagy.");
     hany = kerdez("Hanyszor irjam le?");
-        for (szamlalo = 0; szamlalo < hany; szamlalo++) {
-        kiir("Minden nap programozni fogok!")
-      
-  
-//   if (szam ==8 ) kiir("Helyes !");
-  //else kiir("Nem helyes!"); 
-    szam = kerdez("Mennyi 200$ ?");
-  
+    for (szamlalo = 0; szamlalo < hany; szamlalo++) {
+      kiir("Minden nap programozni fogok!");
+      //   if (szam ==8 ) kiir("Helyes !");
+      //else kiir("Nem helyes!"); 
+      szam = kerdez("Mennyi 200$ ?");
     }
   }
 });
