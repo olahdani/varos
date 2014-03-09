@@ -13,10 +13,11 @@ udvozlet = "Szervusz " + nev;
    for (szamlalo = 0; szamlalo < sz; szamlalo++) {
       kiir (nev)
     }
- vizszintes: 10,
+}
+vizszintes: 10,
   fuggoleges: 8,
   nev: 'andras',
   leiras: 'Cottage',
-}
+kep: 'haz2.png',
 })
 
