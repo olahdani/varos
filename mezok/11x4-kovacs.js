@@ -4,9 +4,9 @@ mezo({
   nev: 'andrasK',
   leiras: 'K',
   kep: 'haz3.png',
-  v = 0,
-  M = 30,
 ralepeskor: function() {
+  v = 0;
+  M = 30;
  kiir (M);
  kiir ("Jónapot!");
   e = kerdez("Veszel egy vasrudat?");
