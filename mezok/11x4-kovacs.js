@@ -7,7 +7,7 @@ mezo({
 ralepeskor: function() {
   v = 0;
   M = 30;
- kiir (M)("$-os van.");
+ kiir M("$-os van.");
  kiir ("Jónapot!");
   e = kerdez("Veszel egy vasrudat?");
     if (e == "igen"){
@@ -19,6 +19,6 @@ ralepeskor: function() {
     else (e != "igen") {
       kiir ("Rendben, remélem máskor veszel!");
     }
-    kiir (v);
+    kiir v;
 }
 })
