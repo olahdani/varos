@@ -5,7 +5,7 @@ mezolista = [
   '3x4-vivien',
   '3x5',
   '3x6-daniel',
-  '4x5-andras',
+  '8x5-andras',
   '5x1-csaba',
   '5x2-pali',
   '5x3-bettina',
