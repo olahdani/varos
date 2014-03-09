@@ -101,4 +101,4 @@ function kerdez(kerdes) {
 function kiir(kiiras) {
   alert(kiiras)
 }
-v = 0
+
