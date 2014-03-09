@@ -1,5 +1,5 @@
 mezo({
-  vizszintes: 8,
+  vizszintes: 10,
   fuggoleges: 5,
   nev: 'andras',
   leiras: 'Cottage',
@@ -13,6 +13,10 @@ udvozlet = "Szervusz " + nev;
    for (szamlalo = 0; szamlalo < sz; szamlalo++) {
       kiir (nev)
     }
+ vizszintes: 10,
+  fuggoleges: 8,
+  nev: 'andras',
+  leiras: 'Cottage',
 }
 })
 
