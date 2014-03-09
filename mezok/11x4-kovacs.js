@@ -1,12 +1,12 @@
-v = 0
 mezo({
   vizszintes: 11,
   fuggoleges: 4,
   nev: 'andrasK',
   leiras: 'K',
   kep: 'haz3.png',
+  v = 0,
+  M = 30,
 ralepeskor: function() {
-M = 30;
  kiir (M);
  kiir ("Jónapot!");
   e = kerdez("Veszel egy vasrudat?");
