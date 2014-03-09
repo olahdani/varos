@@ -14,10 +14,5 @@ udvozlet = "Szervusz " + nev;
       kiir (nev)
     }
 }
-vizszintes: 10,
-  fuggoleges: 8,
-  nev: 'andras',
-  leiras: 'Cottage',
-kep: 'haz2.png',
 })
 
