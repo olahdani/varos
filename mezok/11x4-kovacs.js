@@ -3,7 +3,7 @@ mezo({
   fuggoleges: 4,
   nev: 'andrasK',
   leiras: 'K',
-kep: 'haz3.png',
+  kep: 'haz3.png',
 ralepeskor: function() {
  M = 30;
  kiir (M);
