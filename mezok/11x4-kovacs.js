@@ -19,6 +19,6 @@ ralepeskor: function() {
     else (e != "igen") {
       kiir ("Rendben, remélem máskor veszel!");
     }
-    kiir v;
+    kiir (v);
 }
 })
