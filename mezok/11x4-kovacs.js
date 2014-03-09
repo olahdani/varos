@@ -5,7 +5,6 @@ mezo({
   leiras: 'K',
   kep: 'haz3.png',
 ralepeskor: function() {
-  v = 0;
   M = 30;
  kiir (M);
  kiir ("Jónapot!");
@@ -14,11 +13,9 @@ ralepeskor: function() {
       kiir ("Köszönöm!");
         M = M - 5;
       kiir M("$-od maradt.");
-        v = v + 1;
     }
     else (e == "nem") {
       kiir ("Rendben, remélem máskor veszel!");
     }
- kiir (v)("vasrudad van."); 
 }
 })
