@@ -1,3 +1,4 @@
+v = 0
 mezo({
   vizszintes: 11,
   fuggoleges: 4,
