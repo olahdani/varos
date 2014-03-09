@@ -3,12 +3,10 @@ mezo({
   fuggoleges: 5,
   nev: 'andras',
   leiras: 'Cottage',
-kep: 'haz3.png',
+kep: 'figura.png',
 ralepeskor: function() {
- kiir ("András házában vagy!");
- nev = kerdez("Szluka András vagyok! Mi a neved?");
-udvozlet = "Szervusz " + nev;
- kiir(udvozlet);
+ kiir ("Üdv ikertesó!");
+ nev = kerdez("Mi a neved?");
    sz = kerdez("Hányszor írjam ki a neved?");
    for (szamlalo = 0; szamlalo < sz; szamlalo++) {
       kiir (nev)
