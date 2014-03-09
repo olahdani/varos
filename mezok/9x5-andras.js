@@ -10,7 +10,7 @@ ralepeskor: function() {
     if (d = ("igen")){
     kiir ("Oké! ZzZzzZZ.")
     }
-    if (d = ("nem")){
+    else (d = ("nem")){
         kiir ("Jó, de én mentem aludni. ZzZzzZZ.")
         }
 }
