@@ -11,12 +11,13 @@ ralepeskor: function() {
   e = kerdez("Veszel egy vasrudat?");
     if (e == "igen"){
     kiir ("Köszönöm!");
-    M = M-5;
+    M = M - 5;
     kiir M("$-od maradt.");
-    v = v+1;
+    v = v + 1;
     }
-    else (e == "nem")
+    else (e == "nem") {
         kiir ("Rendben, remélem máskor veszel!");
- kiir v (" vasrudad van.");
+    }
+ kiir v(" vasrudad van.");
 }
 })
