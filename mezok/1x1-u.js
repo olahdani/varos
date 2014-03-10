@@ -1,6 +1,6 @@
 mezo({
-  vizszintes: 13,
-  fuggoleges: 10,
+  vizszintes: 2,
+  fuggoleges: 2,
   nev: 'andrass',
   leiras: 's',
   kep: 'SporeIcon.png',
