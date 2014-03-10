@@ -5,6 +5,7 @@ mezo({
   leiras: 's',
   kep: 'SporeIcon.png',
 ralepeskor: function() {
-
+ kiir ("Idegen!-köszöntelek bolgyónkon!");
+ kiir ("Érezd jól magad! a fel,le,jobbra,balra nyilakkal udsz mozogni");
 }
 })
