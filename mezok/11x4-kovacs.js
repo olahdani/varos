@@ -7,7 +7,7 @@ mezo({
 ralepeskor: function() {
   v = 0;
   M = 30;
- kiir ("Most") (M) ("$-os van.");
+ kiir ("Most") +M ("$-os van.");
  kiir ("Jónapot!");
   e = kerdez("Veszel egy vasrudat?");
     
