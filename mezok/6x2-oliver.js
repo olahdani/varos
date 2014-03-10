@@ -5,7 +5,7 @@ mezo({
   leiras: 'Kicsi házikó.',
   kep: 'haz-oliver.png',
   ralepeskor: function() {
-    kiir ("Oli házában vagy.");
+    kiir ("Oli PANTHEONJÁBAN vagy.");
     hany = kerdez("Hanyszor irjam le?");
     for (szamlalo = 0; szamlalo < hany; szamlalo++) {
       kiir("Minden nap programozni fogok!");
