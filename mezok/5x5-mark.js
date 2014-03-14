@@ -3,17 +3,17 @@ mezo({
   fuggoleges: 8,
   nev: ' Márk Házikója',
   leiras: 'Kicsi házikó.',
-  kep: 'haz2.png',
+  kep: 'haz4.png',
   ralepeskor: function() {
     
    var udvozlesUtan = function() {
-  kerdezuj("Hany csokit szeretnél", kezelAlmaValasz);
+  kerdezuj("Hany almát szeretnél", kezelAlmaValasz);
    }
   
   var kezelAlmaValasz = function(valasz) {
     // Ciklus, haromszor hajtodik vegre
     for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
-       kiiruj("csoki")
+       kiiruj("Alma")
     }
   }
 
