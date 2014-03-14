@@ -12,7 +12,7 @@ mezo({
     }
 
     var kezelBananValasz = function(valasz) {
-      // Ciklus, haromszor hajtodik vegre
+      // Ciklus, haromszor hajtodik vegre 
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
         kiiruj("mindennap programozni fogok")
       }
