@@ -1,16 +1,16 @@
 mezo({
   vizszintes: 3,
   fuggoleges: 6,
-  nev: 'Dani Házikója',
+  nev: 'Dani ház',
   leiras: 'Kicsi házikó.',
  ralepeskor: function() {
 
-    kiir("Szia! Dávidnál vagy!");
+    kiir("Helló! Dani házában vagy!");
     
     nev = kerdez("Mi a neved?");
 
    
-    udvozlet = "Szia " + nev;
+    udvozlet = "Helló " + nev;
 
   
     kiir(udvozlet);
