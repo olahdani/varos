@@ -2,7 +2,7 @@ mezo({
   vizszintes: 6,
   fuggoleges: 2,
   nev: 'Olivér Házikója',
-  leiras: 'Kicsi házikó.',
+  leiras: 'Kicsi házikó.', 
   kep: 'haz-oliver.png',
   ralepeskor: function() { 
     kiir ("Oli Múzeumába vagy."); 
