@@ -8,19 +8,19 @@ ralepeskor: function() {
 
     kiir("Szia! Gellért házában vagy.");
     
-    nev = kerdez("Mi a neved?");
-
-   
-    udvozlet = "Szia " + nev;
-
-
-  
-    kiir(udvozlet);
-
-    szam = kerdez("Hányszór ismételje a nevét?");
-
-    for (szamlalo=o;szammlalo <szam;szamlalo++){
-      kiir(nev)
+    
+    var udvozlesUtan = function() {
+      kerdezuj("Hany almát szeretnél?", kezelAlmaValasz);
     }
+
+    var kezelAlmaValasz = function(valasz) {
+      // Ciklus, haromszor hajtodik vegre
+      for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
+        kiiruj("Alma")
+      }
+    }
+
+    kiiruj("Szia latogato!", udvozlesUtan);
+  }
 }
 });
