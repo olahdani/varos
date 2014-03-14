@@ -30,3 +30,4 @@ mezo({
     kiiruj("Üdv behatoló!", udvozlesUtan);
   }
 });
+ kiiruj ("Nem maradt telefonod")
