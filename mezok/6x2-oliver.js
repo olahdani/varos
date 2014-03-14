@@ -6,7 +6,7 @@ mezo({
   kep: 'haz-oliver.png',
   ralepeskor: function() {
     kiir ("Oli Múzeumába vagy.");
-    
+     
     var udvozlesUtan = function() {
       kerdezuj("Hanyszor irjam le hogy mindennap programozni fogok?", kezelMindennap programozni fogokValasz);
     }
