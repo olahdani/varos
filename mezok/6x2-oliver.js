@@ -5,7 +5,7 @@ mezo({
   leiras: 'Kicsi házikó.',
   kep: 'haz-oliver.png',
   ralepeskor: function() {
-   
+    kiir ("Oli Múzeumába vagy.");
     var udvozlesUtan = function() {
       kerdezuj("Hany banánt szeretnél?", kezelBanánValasz);
     }
