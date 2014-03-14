@@ -5,7 +5,7 @@ mezo({
   leiras: 'Cottage',
 kep: 'figura.png',
 ralepeskor: function() {
- kiir ("Üdv ikertesó!");
+ kiir ("Üdv idegen!");
  nev = kerdez("Mi a neved?");
    sz = kerdez("Hányszor írjam ki a neved?");
    for (szamlalo = 0; szamlalo < sz; szamlalo++) {
