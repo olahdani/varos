@@ -16,7 +16,7 @@ ralepeskor: function() {
     var kezelAlmaValasz = function(valasz) {
       // Ciklus, haromszor hajtodik vegre
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
-        kiiruj("csoki")
+        kiiruj("csoki");
       }
     }
   //  kerdez("Hol dolgozol?");
