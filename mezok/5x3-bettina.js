@@ -23,7 +23,7 @@ mezo({
     var kezelAlmaValasz = function(valasz) {
       // Ciklus, haromszor hajtodik vegre
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
-        kiiruj("Kaptál egy telefont.Elvették tőled.Vigyázz jobban rá!")
+        kiiruj("Kaptál egy telefont Elvették tőled Vigyázz jobban rá")
       }
     }
 
