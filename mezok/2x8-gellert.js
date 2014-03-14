@@ -20,7 +20,7 @@ ralepeskor: function() {
       }
     }
 
-    kiiruj("Szia latogato!", udvozlesUtan);
+    kiiruj("hóldólgozól!", udvozlesUtan);
   
 }
 });
