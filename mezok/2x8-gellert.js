@@ -22,5 +22,4 @@ ralepeskor: function() {
 
     kiiruj("Szia latogato!", udvozlesUtan);
   }
-}
 });
