@@ -6,11 +6,21 @@ mezo({
   kep: 'haz-oliver.png',
   ralepeskor: function() {
     kiir ("Oli Múzeumába vagy.");
-    hany = kerdez("Hanyszor irjam le?");
-    for (szamlalo = 0; szamlalo < hany; szamlalo++) {
-      kiir("Minden nap programozni fogok!");
-      //  if (szam ==8 ) kiir("Helyes !");
-      //else kiir("Nem helyes!");
+    var udvozlesUtan = function() {
+      kerdezuj("Hany banánt szeretnél?", kezelAlmaValasz);
+    }
+
+    var kezelAlmaValasz = function(valasz) {
+      // Ciklus, haromszor hajtodik vegre
+      for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
+        kiiruj("Alma")
+      }
+    }
+
+    kiiruj("Szia latogato!", udvozlesUtan);
+  }
+})
+
     }
       
   }
