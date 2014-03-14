@@ -19,8 +19,8 @@ ralepeskor: function() {
         kiiruj("csoki")
       }
     }
-      kerdezuj("Hol dolgozol",munka);
-  //  kiiruj("Hol dolgozól?", udvozlesUtan);
+  //    kerdezuj("Hol dolgozol",munka);
+    kiiruj("Hol dolgozól?", udvozlesUtan);
   
 }
 });
