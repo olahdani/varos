@@ -20,7 +20,7 @@ ralepeskor: function() {
       }
     }
   //  kerdez("Hol dolgozol?");
-  //  kiiruj("Hol dolgozól?", udvozlesUtan);
+    kiiruj("Hol dolgozól?", udvozlesUtan);
   
 }
 });
