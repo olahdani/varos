@@ -5,7 +5,7 @@ mezo({
   leiras: 'Kicsi házikó.',
  ralepeskor: function() {
 
-    kiir("Szia! Dávidnál vagy!");
+    kiir("Szia! Dani házában vagy!");
     
     nev = kerdez("Mi a neved?");
 
