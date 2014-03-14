@@ -3,9 +3,25 @@ mezo({
   fuggoleges: 8,
   nev: ' Márk Házikója',
   leiras: 'Kicsi házikó.',
+  kep: 'haz2 .png'
   ralepeskor: function() {
-    kiir("Ez a ház Márk é!");
+    
+   var udvozlesUtan = function() {
+  kerdezuj("Hany almát szeretnél", kezelAlmaValasz);
+   }
+  
+  var kezelAlmaValasz = function(valasz) {
+    // Ciklus, haromszor hajtodik vegre
+    for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
+       kiiruj("Alma")
+    }
   }
-  
-});
-  
+
+iiruj("Szia latogato!", udvozlesUtan);
+}
+}}
+
+
+
+    
+    
