@@ -4,7 +4,7 @@ mezo({
   nev: 'Olivér Házikója',
   leiras: 'Kicsi házikó.',
   kep: 'haz-oliver.png',
-  ralepeskor: function() {
+  ralepeskor: function() { 
     kiir ("Oli Múzeumába vagy."); 
     
     var udvozlesUtan = function() {
