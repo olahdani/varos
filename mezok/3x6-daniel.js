@@ -15,12 +15,12 @@ mezo({
   
     kiir(udvozlet);
 
-    cim = kerdez("Hány éves vagy?");
+    ev = kerdez("Hány éves vagy?");
 
   
-    if (cim != "") kiir("Elhiszem.")
+    if (4 < ev < 80) kiir("Elhiszem.")
      
      
-    else kiir("Nem hiszem hogy 0 éves vagy!");
+    else kiir("Na, ezt már nem hiszem el!");
   }
 });
