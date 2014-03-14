@@ -10,16 +10,17 @@ ralepeskor: function() {
     
     
     var udvozlesUtan = function() {
-      kerdezuj("Hany almát szeretnél?", kezelAlmaValasz);
+      kerdezuj("Hany csokit kérsz?", kezelAlmaValasz);
     }
 
     var kezelAlmaValasz = function(valasz) {
       // Ciklus, haromszor hajtodik vegre
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
-        kiiruj("Alma")
+        kiiruj("csoki")
       }
     }
 
     kiiruj("Szia latogato!", udvozlesUtan);
-  }
+  
+}
 });
