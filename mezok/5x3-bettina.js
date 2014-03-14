@@ -27,10 +27,6 @@ mezo({
       }
     }
 
-    kiiruj("Üdv behatoló!", udvozlesUtan);
-    
-    
-    
-    
+    kiiruj("Üdv behatoló!", udvozlesUtan
   }
 });
