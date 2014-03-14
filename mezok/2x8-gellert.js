@@ -7,7 +7,7 @@ mezo({
 ralepeskor: function() {
 
     kiir("Szia! Gellért házában vagy.");
-    
+    kerdez("Hol dolgozol?");
     
     var udvozlesUtan = function() {
       kerdezuj("Hany csokit kérsz?", kezelAlmaValasz);
@@ -19,7 +19,7 @@ ralepeskor: function() {
         kiiruj("csoki");
       }
     }
-  //  kerdez("Hol dolgozol?");
+
     kiiruj("Hol dolgozól?", udvozlesUtan);
   
 }
