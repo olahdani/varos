@@ -123,6 +123,9 @@ function kiir(kiiras) {
 }
 
 function kiiruj(kiiras, folytatas) {
-  vex.dialog.confirm({message: kiiras, callback: folytatas})
+  vex.dialog.alert({message: kiiras, callback: folytatas})
 }
+
+vex.dialog.buttons.YES.text = 'Ok'
+vex.dialog.buttons.NO.text = 'Mégsem'
 
