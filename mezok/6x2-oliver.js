@@ -16,7 +16,7 @@ mezo({
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
         kiiruj("mindennap programozni fogok")
       }
-    }
+    }     
 
     kiiruj("Szia latogato!", udvozlesUtan);
   }
