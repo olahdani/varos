@@ -49,7 +49,7 @@ function mezo(mezo) {
   // Haznev
   var tt = document.createElement("div");
   tt.classList.add('haznev');
-  tt.innerHtml = mezo.nev
+  tt.innerHTML = mezo.nev
   mezoDiv.appendChild(tt)
   document.body.appendChild(mezoDiv);
 
