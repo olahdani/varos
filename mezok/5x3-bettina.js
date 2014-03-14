@@ -17,13 +17,13 @@ mezo({
      ralepeskor: function() {
 
     var udvozlesUtan = function() {
-      kerdezuj("Hányszor írjam ki hogy neumann clubban vagy ?", kezelAlmaValasz);
+      kerdezuj("Hány telefont szeretnél?", kezelAlmaValasz);
     }
 
     var kezelAlmaValasz = function(valasz) {
       // Ciklus, haromszor hajtodik vegre
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
-        kiiruj("neumann clubban vagy")
+        kiiruj("telefon")
       }
     }
 
