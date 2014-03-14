@@ -18,26 +18,25 @@ ralepeskor: function() {
             sz = kerdez ("Kisebb mint 7?");
               if (sz = igen) {
                 sz = kerdez ("Kisebb mint 6?");
-                    if (sz = igen) {
-                      sz = kerdez ("Kisebb mint 5?");
+                  if (sz = igen) {
+                    sz = kerdez ("Kisebb mint 5?");
+                      if (sz = igen) {
+                        sz = kerdez ("Kisebb mint 4?");
                           if (sz = igen) {
-                            sz = kerdez ("Kisebb mint 4?");
-                             if (sz = igen) {
-                               sz = kerdez ("Kisebb mint 3?");
-                                if (sz = igen) {
-                                  sz = kerdez ("Kisebb mint 2?");
-                                    if (sz = igen) {
-                                      sz = kerdez ("Kisebb mint 1?");
-                                      
-                                    else (sz = ("nem"))("Te az 1-es számra gondoltál!");
+                            sz = kerdez ("Kisebb mint 3?");
+                              if (sz = igen) {
+                                sz = kerdez ("Kisebb mint 2?");
+                                  if (sz = igen) {
+                                    sz = kerdez ("Kisebb mint 1?");
+                          else (sz = ("nem"))("Te az 1-es számra gondoltál!");
                                                    }
-                                  else (sz = ("nem"))("Te a 2-es számra gondoltál!");
+                        else (sz = ("nem"))("Te a 2-es számra gondoltál!");
                                               }
-                              else (sz = ("nem"))("Te a 3-es számra gondoltál!");
+                      else (sz = ("nem"))("Te a 3-es számra gondoltál!");
                                             }          
-                            else (sz = ("nem"))("Te a 4-es számra gondoltál!");
+                    else (sz = ("nem"))("Te a 4-es számra gondoltál!");
                                          }
-                        else (sz = ("nem"))("Te az 5-es számra gondoltál!");
+                  else (sz = ("nem"))("Te az 5-es számra gondoltál!");
                                    }
                 else (sz = ("nem"))("Te a 6-es számra gondoltál!");
                              }
@@ -47,7 +46,7 @@ ralepeskor: function() {
                       }          
        else (sz = ("nem"))("Te a 9-es számra gondoltál!");
                    }
-    else (sz = ("nem"))("Te a 10-es számra gondoltál!");
+    else (sz = ("nem"))("Te a 10-es számra gondoltál!")
 }
 })
 
