@@ -19,7 +19,7 @@ ralepeskor: function() {
         kiiruj("csoki")
       }
     }
-    kerdezuj("Hol dolgozol?",munka);
+    kerdez("Hol dolgozol?");
   //  kiiruj("Hol dolgozól?", udvozlesUtan);
   
 }
