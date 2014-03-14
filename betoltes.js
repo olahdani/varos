@@ -22,7 +22,7 @@ mezolista.feldolgozas(function(nev) {
 function szereploBetolt(sz) {
   var mezo = document.createElement("div");
   mezo.classList.add('szereplo');
-  mezo.style.backgroundImage = "url(/kepek/figura.png)";
+  mezo.style.backgroundImage = "url(/kepek/szereplo.png)";
   mezo.style.left = (sz.vizszintes * 64) + "px";
   mezo.style.top = (sz.fuggoleges * 64) + "px";
   document.body.appendChild(mezo);
