@@ -11,4 +11,5 @@ mezo({
     for (szamlalo = 0; szamlalo < szam; szamlalo++) {
         kiir("Minden nap programozni fogok")
     }
+  }
 })

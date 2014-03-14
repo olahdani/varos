@@ -23,8 +23,8 @@ function szereploBetolt(sz) {
   var mezo = document.createElement("div");
   mezo.classList.add('szereplo');
   mezo.style.backgroundImage = "url(/kepek/figura.png)";
-  mezo.style.left = (sz.vizszintes * 64) + "px"
-  mezo.style.top = (sz.fuggoleges * 64) + "px"
+  mezo.style.left = (sz.vizszintes * 64) + "px";
+  mezo.style.top = (sz.fuggoleges * 64) + "px";
   document.body.appendChild(mezo);
 
   sz.mezo = mezo;
@@ -45,7 +45,14 @@ function mezo(mezo) {
   mezoDiv.style.backgroundImage = "url(/kepek/" + (mezo.kep || alapKep) + ")";
   mezoDiv.style.left = (mezo.vizszintes * 64) + "px"
   mezoDiv.style.top = (mezo.fuggoleges * 64) + "px"
+
+  // Haznev
+  var tt = document.createElement("div");
+  tt.classList.add('haznev');
+  tt.innerText = mezo.nev
+  mezoDiv.appendChild(tt)
   document.body.appendChild(mezoDiv);
+
   mezo.div = mezoDiv;
 
   mezok.push(mezo)
@@ -103,12 +110,19 @@ function lep() {
   }
 }
 
+function kerdez(kerdes) {
+  return window.prompt(kerdes)
+}
 
-function kerdez(kerdes, valaszKezelo) {
+function kerdezuj(kerdes, valaszKezelo) {
   vex.dialog.prompt({message: kerdes, callback: valaszKezelo})
 }
 
 function kiir(kiiras) {
-  vex.dialog.alert(kiiras)
+  alert(kiiras)
+}
+
+function kiiruj(kiiras, folytatas) {
+  vex.dialog.confirm({message: kiiras, callback: folytatas})
 }
 

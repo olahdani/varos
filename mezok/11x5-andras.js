@@ -5,12 +5,19 @@ mezo({
   leiras: 'X',
 kep: 'haz2.png',
 ralepeskor: function() {
- kiir ("Itt vagy nálam");
-  d = kerdez("Alszol nálam?");
-    if (d == "igen"){
-    kiir ("Oké! ZzZzzZZ.");
+
+  var udvozlesUtan = function() {
+    kerdezuj("Alszol nálam?", valaszKezelo);
+  }
+
+  var valaszKezelo = function(valasz) {
+    if (valasz == "igen") {
+      kiiruj ("Oké! ZzZzzZZ.");
     }
-    else (d == "nem")
-        kiir ("Jó, de én mentem aludni. ZzZzzZZ.");
-}
-})
+    else if (valasz == "nem") {
+      kiiruj ("Jó, de én mentem aludni. ZzZzzZZ.");
+    }
+  }
+
+  kiiruj("Itt vagy nálam", udvozlesUtan);
+}})

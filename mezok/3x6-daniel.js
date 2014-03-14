@@ -22,7 +22,5 @@ mezo({
      
      
     else kiir("Mért nem írtad be?");
-}
- 
   }
 });

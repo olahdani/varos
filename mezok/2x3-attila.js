@@ -6,15 +6,18 @@ mezo({
   kep: 'haz2.png',
   ralepeskor: function() {
 
+    var udvozlesUtan = function() {
+      kerdezuj("Hany almát szeretnél?", kezelAlmaValasz);
+    }
 
     var kezelAlmaValasz = function(valasz) {
       // Ciklus, haromszor hajtodik vegre
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
-        kiir("Alma")
+        kiiruj("Alma")
       }
     }
 
-    kerdez("Hany almát szeretnél?", kezelAlmaValasz);
+    kiiruj("Szia latogato!", udvozlesUtan);
   }
 })
 
