@@ -7,10 +7,10 @@ mezo({
   ralepeskor: function() {
     kiir ("Oli Múzeumába vagy.");
     var udvozlesUtan = function() {
-      kerdezuj("Hany banánt szeretnél?", kezelBanánValasz);
+      kerdezuj("Hany banánt szeretnél?", kezelBananValasz);
     }
 
-    var kezelAlmaValasz = function(valasz) {
+    var kezelBananValasz = function(valasz) {
       // Ciklus, haromszor hajtodik vegre
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
         kiiruj("banán")
