@@ -3,7 +3,7 @@ mezo({
   fuggoleges: 8,
   nev: ' Márk Házikója',
   leiras: 'Kicsi házikó.',
-  kep: 'haz2 .png'
+  kep: 'haz2 .png',
   ralepeskor: function() {
     
    var udvozlesUtan = function() {
