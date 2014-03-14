@@ -1,11 +1,11 @@
 mezo({
   vizszintes: 2,
   fuggoleges: 2,
-  nev: 'andrass',
+  nev: '!Információ!',
   leiras: 's',
   kep: 'SporeIcon.png',
 ralepeskor: function() {
  kiir ("Idegen!-köszöntelek bolygónkon!");
- kiir ("Érezd jól magad! a fel,le,jobbra,balra nyilakkal tudsz mozogni");
+ kiir ("Érezd jól magad!-A fel, le, jobbra, balra nyilakkal tudsz mozogni.");
 }
 })
