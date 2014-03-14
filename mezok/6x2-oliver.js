@@ -6,6 +6,17 @@ mezo({
   kep: 'haz-oliver.png',
   ralepeskor: function() {
     kiir ("Oli Múzeumába vagy.");
+    kiir("Szia! Dávidnál vagy!");
+    
+    nev = kerdez("Mi a neved?");
+
+   
+    udvozlet = "Szia " + nev;
+
+  
+    kiir(udvozlet);
+
+   
     var udvozlesUtan = function() {
       kerdezuj("Hany banánt szeretnél?", kezelBananValasz);
     }
