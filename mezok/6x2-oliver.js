@@ -6,7 +6,7 @@ mezo({
   kep: 'haz-oliver.png',
   ralepeskor: function() {
     kiir ("Oli Múzeumába vagy.");
-    kiir("Szia! Dávidnál vagy!");
+    kiir("Szia! Oli vagy!");
     
     nev = kerdez("Mi a neved?");
 
