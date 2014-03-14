@@ -17,17 +17,17 @@ mezo({
      ralepeskor: function() {
 
     var udvozlesUtan = function() {
-      kerdezuj("Hányszor írjam ki hogy neumann club ?", kezelAlmaValasz);
+      kerdezuj("Hányszor írjam ki hogy neumann clubban vagy ?", kezelAlmaValasz);
     }
 
     var kezelAlmaValasz = function(valasz) {
       // Ciklus, haromszor hajtodik vegre
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
-        kiiruj("neumann club")
+        kiiruj("neumann clubban vagy")
       }
     }
 
-    kiiruj("Szia latogato!", udvozlesUtan);
+    kiiruj("Szia behatoló!", udvozlesUtan);
     
     
     
