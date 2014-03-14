@@ -6,7 +6,7 @@ mezo({
   kep: 'haz-szgellert.png',
 ralepeskor: function() {
 
-    kiir("Szia! Gellért házában vagy.");
+    kiiruj("Szia! Gellért házában vagy.");
     muinka = kerdez("Hol dolgozol?");
     
     var udvozlesUtan = function() {
