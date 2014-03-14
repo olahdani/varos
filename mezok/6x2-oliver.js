@@ -8,13 +8,13 @@ mezo({
     kiir ("Oli Múzeumába vagy.");
     
     var udvozlesUtan = function() {
-      kerdezuj("Hany banánt szeretnél?", kezelBananValasz);
+      kerdezuj("Hanyszor irjam le hogy mindennap programozni fogok?", kezelMindennap programozni fogokValasz);
     }
 
     var kezelBananValasz = function(valasz) {
       // Ciklus, haromszor hajtodik vegre
       for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
-        kiiruj("banán")
+        kiiruj("mindennap programozni fogok")
       }
     }
 
