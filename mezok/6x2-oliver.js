@@ -1,7 +1,7 @@
 mezo({
   vizszintes: 6,
   fuggoleges: 2,
-  nev: ' Házikója',
+  nev: 'Olivér Házikója',
   leiras: 'Kicsi házikó.',
   kep: 'haz-oliver.png',
   ralepeskor: function() {
