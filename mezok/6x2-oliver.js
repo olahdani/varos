@@ -8,13 +8,6 @@ mezo({
     kiir ("Oli Múzeumába vagy.");
    
     
-    nev = kerdez("Mi a neved?");
-
-   
-    udvozlet = "Szia " + nev;
-
-  
-    kiir(udvozlet);
 
    
     var udvozlesUtan = function() {
