@@ -20,7 +20,5 @@ mezo({
     kiiruj("Szia latogato!", udvozlesUtan);
   }
 })
-
-    } 
       
   
