@@ -17,9 +17,10 @@ mezo({
     }
   }
 
-iiruj("Szia latogato!", udvozlesUtan);
-}
-}}
+    kiiruj("Szia latogato!", udvozlesUtan);
+  }
+
+});
 
 
 
