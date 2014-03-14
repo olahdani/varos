@@ -4,7 +4,7 @@ mezo({
   nev: ' Márk Házikója',
   leiras: 'Kicsi házikó.',
   ralepeskor: function() {
-    kiir("Ez a ház Ash-jé! Ne lépj be!");
+    kiir("Ez a ház Márk é!");
   }
   
 });
