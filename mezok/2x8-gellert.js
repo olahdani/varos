@@ -20,7 +20,7 @@ ralepeskor: function() {
       }
     }
 
-    kiiruj("Hol dolgozól?", udvozlesUtan);
+    kiiruj("Üdvözöllek!", udvozlesUtan);
   
 }
 });
