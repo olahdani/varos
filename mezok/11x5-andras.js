@@ -1,7 +1,7 @@
 mezo({
   vizszintes: 11,
   fuggoleges: 5,
-  nev: 'andras',
+  nev: 'András háza',
   leiras: 'X',
 kep: 'haz2.png',
 ralepeskor: function() {
