@@ -28,7 +28,7 @@ mezo({
     }
 
     kiiruj("Üdv behatoló!", udvozlesUtan);
-    kiiruj("Jósolok,nem fog maradni telefonod ha Bettina házára mész.")
+    kiiruj("Jósolok,nem fog maradni telefonod.")
   }
 });
  
