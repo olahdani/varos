@@ -10,7 +10,8 @@ mezo({
     for (szamlalo = 0; szamlalo < hany; szamlalo++) {
       kiir("Minden nap programozni fogok!");
       //  if (szam ==8 ) kiir("Helyes !");
-      //else kiir("Nem helyes!"); 
+      //else kiir("Nem helyes!");
+    }
       
   }
 })
