@@ -11,50 +11,50 @@ ralepeskor: function() {
    kiir(say)
    kiir ("Gondolj egy számra! (1-től-10-ig)");
    sz = kerdez ("Kisebb mint 10? (Ezeket írhatod: igen ; nem ;)");
-    if (sz = igen) {
+    if (sz == "igen") {
       sz = kerdez("Kisebb mint 9?");
-       if (sz = igen) {
+       if (sz == "igen") {
          sz = kerdez("Kisebb mint 8?");
-          if (sz = igen) {
+          if (sz == "igen") {
             sz = kerdez("Kisebb mint 7?");
-              if (sz = igen) {
+              if (sz == "igen") {
                 sz = kerdez("Kisebb mint 6?");
-                  if (sz = igen) {
+                  if (sz == "igen") {
                     sz = kerdez("Kisebb mint 5?");
-                      if (sz = igen) {
+                      if (sz == "igen") {
                         sz = kerdez("Kisebb mint 4?");
-                          if (sz = igen) {
+                          if (sz == "igen") {
                             sz = kerdez("Kisebb mint 3?");
-                              if (sz = igen) {
+                              if (sz == "igen") {
                                 sz = kerdez("Kisebb mint 2?");
-                                  if (sz = igen) {
+                                  if (sz == "igen") {
                                   kiir("Te az 1-es számra gondoltál!");
                                                        }
-                            else (sz = nem) 
+                            else (sz == "nem") 
                             kiir("Te a 2-es számra gondoltál!");
                                                   }
-                          else (sz = nem) 
+                          else (sz == "nem") 
                           kiir("Te a 3-es számra gondoltál!");
                                                 }          
-                        else (sz = ("nem")) 
+                        else (sz == "nem") 
                         kiir("Te a 4-es számra gondoltál!");
                                              }
-                      else (sz = ("nem")) 
+                      else (sz == "nem") 
                       kiir("Te az 5-es számra gondoltál!");
                                        }
-                    else (sz = ("nem")) 
+                    else (sz == "nem") 
                     kiir("Te a 6-es számra gondoltál!");
                                  }
-                  else (sz = ("nem")) 
+                  else (sz == "nem") 
                   kiir("Te a 7-es számra gondoltál!");
                             }
-              else (sz = ("nem")) 
+              else (sz == "nem") 
               kiir("Te a 8-es számra gondoltál!");
                           }          
-           else (sz = ("nem")) 
+           else (sz == "nem") 
            kiir("Te a 9-es számra gondoltál!");
                        }
-        else (sz = ("nem")) 
+        else (sz == "nem") 
         kiir("Te a 10-es számra gondoltál!")
 }
 })
