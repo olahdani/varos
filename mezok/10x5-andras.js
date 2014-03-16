@@ -9,7 +9,7 @@ ralepeskor: function() {
  nev = kerdez("Mi a neved?");
    say = "Szia, " +nev;
    kiir(say)
-   kiir ("Gondolj egy számra! (1-től-10-ig, pozitív, egész szám.) Miután eljutott odáig, hogy a program kitalálta a szmáot az első kiírás lesz a jó!");
+   kiir ("Gondolj egy számra! (1-től-10-ig, pozitív, egész szám.) Miután eljutott odáig, hogy a program kitalálta a számot az első kiírás lesz a jó!");
    sz = kerdez ("Kisebb mint 10? (Ezeket írhatod: igen ; nem ;)");
     if (sz == "igen") {
       sz = kerdez("Kisebb mint 9?");
