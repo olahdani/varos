@@ -7,7 +7,8 @@ kep: 'figura.png',
 ralepeskor: function() {
  kiir ("Üdv idegen!");
  nev = kerdez("Mi a neved?");
-   kiir "Szia," +nev;
+   say = ("Szia,")(+nev);
+   kiir (say)
    kiir ("Gondolj egy számra! (1-től-10-ig)");
    sz = kerdez ("Kisebb mint 10? (Ezeket írhatod: igen ; nem ;)");
     if (sz = igen) {
