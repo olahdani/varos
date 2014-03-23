@@ -19,7 +19,7 @@ mezo({
     ev = kerdez("Hány éves vagy?");
 
   
-    if (4 < ev < 80) kiir("Elhiszem.")
+    if (4 < ev < 80) kiir("Elhiszem.");
      
      
     else kiir("Na, ezt már nem hiszem el!");
