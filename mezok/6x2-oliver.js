@@ -18,7 +18,7 @@ mezo({
       }
     }     
 
-    kiiruj("Szia latogato!", udvozlesUtan);
+    kiiruj("Szia latogato!", udvozlesUtan);   
   }
 })
       
