@@ -13,5 +13,5 @@ mezolista = [
   '5x3-bettina',
   '5x5-mark',
   '6x2-oliver',
-  '4x4-szamkitalalo',
+  '1x8-szamkitalalo',
 ];
