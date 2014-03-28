@@ -16,6 +16,18 @@ mezo({
   
     kiir(udvozlet);
 
+kerdezuj("Hány játékot szeretnél?", kezelAlmaValasz);
+    }
+
+    var kezelAlmaValasz = function(valasz) {
+      // Ciklus, haromszor hajtodik vegre
+      for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
+        kiiruj("Játék")
+      }
+    }
+
+    kiiruj("Szia latogato!", udvozlesUtan);
+
     ev = kerdez("Hány éves vagy?");
 
   
