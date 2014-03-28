@@ -27,7 +27,7 @@ mezo({
       }
     }
 
-    kiiruj("Üdv, jósolok,nem fog maradni telefonod haha.", udvozlesUtan);
+    kiiruj("Üdv, jósolok,nem fog maradni a most kapott telefonaid közül egy sem.", udvozlesUtan);
   }
 });
  
