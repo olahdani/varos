@@ -12,6 +12,18 @@ mezo({
 
    
     udvozlet = "Helló " + nev;
+    
+    var udvozlesUtan = function() {
+      kerdezuj("Hány narancsot kérsz?", kezelNarValasz);
+    }
+
+    var kezelNarValasz = function(valasz) {
+
+      for (szamlalo = 0; szamlalo < valasz; szamlalo++) {
+        kiiruj("Narancs")
+      }
+    }
+
 
   }
 });
