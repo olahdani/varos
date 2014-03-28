@@ -1,6 +1,6 @@
 mezo({
-  vizszintes: 4,
-  fuggoleges: 4,
+  vizszintes: 1,
+  fuggoleges: 8,
   nev: 'Számkitaláló Házikó',
   leiras: 'Kicsi házikó.',
   kep: 'haz2.png',
